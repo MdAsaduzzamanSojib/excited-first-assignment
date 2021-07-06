@@ -1,17 +1,25 @@
-.body{
-    font-family: 'Oswald', sans-serif;
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+    padding: 0%;
 }
 h1{
     font-size: 60px;
+    color: gray;
 }
 .color{
     color: yellowgreen;
 }
 p{
     font-size: 30px;
+    color: gray;
 }
-section{
+.area{
     display: flex;
+    margin-bottom: 50px;
+}
+.space h1{
+    margin: -1px;
 }
 .space{
     width: 50%;
@@ -20,10 +28,78 @@ section{
 .space img{
     width: 100%;
 }
+.space-2{
+    width: 45%;
+    margin-right: 10px;
+}
+.space-2 img{
+    width: 54%;
+    height: 496px;
+    padding-top: 88px;
+    margin-left: 170px;
+}
+.align{
+    text-align: left;
+}
 .button{
     text-decoration: none;
-    background-image: linear-gradient(yellow,green);
+    background-image: linear-gradient(90deg, yellow,green);
     padding: 10px 40px;
     color:black;
-    font-weight: 800px;
-    border-radius: 5px ;
+    font-weight: 900px;
+    border-radius: 30px;
+}
+.bacground-image{
+    background-image: url(food-network-main/images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+}
+.header{
+    text-align: center;
+    font-size: 40px;
+}
+.paragraph{
+    text-align: center;
+    padding: 0px 224px;
+}
+.box-shadow2{
+    display: flex;
+    padding-bottom: 150px;
+}
+.box-shadow{
+    width: 30%;
+    padding: 2%;
+    border-radius: 20px;
+    box-shadow: 1px 1px 20px gray;
+    margin: 20px;
+}
+.box-shadow img{
+    width: 100%;
+}
+.fan{
+    display: flex;
+    margin: 0px 200px;
+    box-shadow: 1px 2px 19px grey;
+    border-radius: 26px;
+    margin-bottom: 100px;
+}
+.activities{
+    width: 30%;
+    margin: 0px 30px;
+    text-align: center;
+}
+.activities p{
+    font-size: 20px;
+}
+.footer{
+    text-align: center;
+    background-color: black;
+    padding: 35px;
+}
+.footer h1{
+    font-size: 30px;
+}
+.footer p{
+    font-size: 16px;
+}
